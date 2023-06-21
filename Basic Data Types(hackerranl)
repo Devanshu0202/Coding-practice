@@ -1,1 +1,17 @@
- 
+ #include <iostream>
+#include<bits/stdc++.h>
+#include <cstdio>
+#include<iomanip>
+using namespace std;
+
+int main() {
+    int a;
+    long int b;
+    char ch;
+    float c;
+    double d;
+    cin>>a>>b>>ch>>c>>d;
+    cout<<a<<endl<<b<<endl<<ch<<endl<<fixed<<setprecision(3)<<c<<endl<<fixed<<setprecision(9)<<d<<endl;
+    return 0;
+}
+
